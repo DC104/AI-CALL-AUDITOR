@@ -7,7 +7,7 @@
 3. After that activate that virtual enviorment using this command : "your-enviorment\Scripts\activate"(for windows)
 4. After that install all dependencies and modules from requirement.txt by running this command : "pip install -r requirement.txt" 
 # Now Run this app
-* after all the above step run this app using this command : "streamlit run app.py" and you will see app will get open in this
+* after completing all the above mentioned steps run this app using this command : "streamlit run app.py" and you will see app will get open in this
 web address - "http://localhost:8501/"
 
 
