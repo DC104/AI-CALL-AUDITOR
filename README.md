@@ -13,19 +13,18 @@
 web address - "http://localhost:8501/"
 
 # How to start analyze and use the app
-1. select any audio files(specifically customer supporting recording) from your device then upload it using upload button.
-2. 
-3. After that provide your own gemini api Key .To create gemini api key follow this step:
+1. select any audio files(specifically customer supporting recording) from your device then upload it using upload button. 
+2. After that provide your own gemini api Key .To create gemini api key follow this step:
     step 1: search Gemini api key in browser and then gemini ai studio will be opened.
     step 2: From there click on "Get your own api key" button.
     step 3: After that a new page will be open from there sign in with your existing google account and click on create api key.
     step 4: After that a small page will be shown where you have to give any name for the api key and from the dropdown select "default gemini project"
     step 5: Now your api key is ready to use . Now copy the key using copy button which is available right side of the api key.
    
-4. After copyting the apikey paste it in the api key section . Now you are ready to start the audit file.
-5. In the manager email section give your email and click "start audit" button .
-6. Now app will analyze the recording file and based on the policy it will generate score .
-7. If the score will be less < 30 then an alert email will go to your email address .
+3. After copyting the apikey paste it in the api key section . Now you are ready to start the audit file.
+4. In the manager email section give your email and click "start audit" button .
+5. Now app will analyze the recording file and based on the policy it will generate score .
+6. If the score will be less < 30 then an alert email will go to your email address .
 
 # Important points
 1. while downloading the file please set the manager email and app password in the "reporting.py" file other wise app will show error.
