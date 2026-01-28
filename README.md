@@ -2,14 +2,21 @@
 1. In these project we have made a call auditor which will analyse the call specifically for customer support releated .
 2. It  will analyse the call based on the customer tones and alls .
    
-# Installing dependencies
+# Installing dependencies using docker file
 1. At first step clone this repo or manually downaload all files to your local computer from this repo based on your preferences
 2. Then create a virtual enviorment using this command : "python -m venv your-enviorment"
 3. After that activate that virtual enviorment using this command : "your-enviorment\Scripts\activate"(for windows)
 4. After that install all dependencies and modules from requirement.txt by running this command : "pip install -r requirement.txt"
- 
+5. Create a file named Dockerfile in the root of the project with the following content pasted in dockerfile.
+6. Then run this command - "docker build -t <your-file-name>"
+7. Start the appliaction with this command:
+  "docker run --rm -it \
+  -p 8501:8501 \
+  -v "C:\path\to\your\local\folder:/call-auditor/app" \
+  --name call-auditor-container \
+  call-auditor:latest"
 # Now Run this app
-* after completing all the above mentioned steps run this app using this command : "streamlit run app.py" and you will see app will get open in this
+* after completing all the above mentioned steps run this app you will see app will get open in this
 web address - "http://localhost:8501/"
 
 # How to start analyze and use the app
