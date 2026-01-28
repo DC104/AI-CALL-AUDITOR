@@ -4,13 +4,9 @@ python-dotenv>=1.0.0
 pandas>=2.1.0
 
 # Audio Processing (CPU Friendly)
-# Audio Processing (CPU Friendly)
-faster-whisper
+git+https://github.com/narcotic-sh/senko.git
+openai-whisper
 pydub
-soundfile
-scikit-learn
-scipy
-numpy
 
 # LLM & RAG
 google-generativeai
